@@ -8,7 +8,7 @@ export default function Contact() {
     <div
       className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center "
       style={{
-        backgroundImage: "url('/contactpage.jpeg')", // Replace with your image path
+        backgroundImage: "url('/contactpage.jpeg')", 
       }}
     >
       <div className="mt-[20px]">

@@ -1,8 +1,5 @@
- "use client"
- import Footer from "@/components/footer/footer";
- import Navbar from "@/components/navbar/nav";
+ "use client";
 import Image from "next/image";
-import { useState,ChangeEvent } from "react";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -14,6 +11,8 @@ function Aboutpage() {
   return (
     <div className="flex flex-col text-white justify-center items-center lg:mt-[100px] md:[60px] mt-[100px] mb-5">
       <div className="flex lg:flex-row md:flex-row flex-col items-center text-center gap-x-[200px] mb-[20px] lg:mr-[400px] mr-[00px] md:ml-[0px] md:gap-x-14 md:mr-[100px]">
+         
+            {/* ///image */}
         <div className="h-[150px] w-[150px]  rounded-full overflow-hidden">
           <Image
             src="/img4.jpeg"
@@ -23,6 +22,7 @@ function Aboutpage() {
             className="object-cover"
           />
         </div>
+
         <h1 className=" lg:text-4xl text-2xl  font-bold text-white">About Me!</h1>
       </div>
 
@@ -42,6 +42,8 @@ function Aboutpage() {
           problems into simple, elegant solutions.
         </p>
       </div>
+                  {/* skills section */}
+
       <div className="mx-auto mt-7 lg:mt-16 text-center lg:text-left">
   <h1 className="text-xl lg:text-2xl font-bold">My Skills</h1>
 </div>

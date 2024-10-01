@@ -8,7 +8,7 @@ Button: string;
 }
 
 
-
+        ///card component...
 
 const ProjectCard:React.FC<projectCardProp> = ({title,description,icons,Button}) =>{
 return ( 

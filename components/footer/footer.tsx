@@ -2,8 +2,9 @@ import { SiGmail } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaCreativeCommons } from "react-icons/fa6";
-<FaCreativeCommons />
 import Link from "next/link"
+
+
 export default function Footer() {
   return (
     <div className="flex-col bg-blue-950 w-full md:p-3 p-4">

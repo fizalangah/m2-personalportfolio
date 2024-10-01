@@ -11,6 +11,8 @@ import { LiaBirthdayCakeSolid } from "react-icons/lia";
 import { RiTimerFlashFill } from "react-icons/ri";
 
 export default function ProjectPage() {
+
+      // card data
   const projectList = [
     {
       title: "Weather App",
