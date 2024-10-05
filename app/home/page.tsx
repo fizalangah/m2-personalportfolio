@@ -6,7 +6,7 @@ import styles from "./Home.module.css"; // Import the CSS module for styles
 export default function Homepage() {
   return (
     <>
-      <div className=" bg-blue-950 flex sm:justify-center items-center text-white lg:flex-row flex-col-reverse mt-[00px]  ">
+      <div className=" bg-blue-950 flex sm:justify-center items-center text-white lg:flex-row flex-col-reverse mt-[00px]  h-screen ">
 
                
         <div className="lg:mr-[0px] text-center lg:text-left sm:mr-[50px]">
