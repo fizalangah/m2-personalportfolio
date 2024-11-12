@@ -15,13 +15,35 @@ export default function Contact() {
         <h1 className="text-4xl text-yellow-50 font-bold">Let's Get In Touch</h1>
       </div>
 
-      <div className="flex justify-center items-center mt-[20px]">
-        {/* Left side text */}
-        <div className="bg-blue-950 md:p-7 p-5 flex justify-center items-center text-yellow-50 md:gap-x-24 gap-y-10 text-2xl flex-col lg:h-[400px] lg:w-[400px] md:h-[400px] md:w-[400px] h-[300px] w-[300px]">
-          <Link href="mailto:fizalangah2001@gmail.com"><SiGmail /> Gmail</Link>
-          <Link href="https://www.linkedin.com/in/fiza-langah-33543b2b7"><FaLinkedin /> LinkedIn</Link>
-          <Link href="https://github.com/fizalangah"><FaGithub /> GitHub</Link>
-        </div>
+      <div className="flex justify-center items-center mt-[50px] text-center">
+
+     < form action="https://formspree.io/f/mvgorqqy"
+  method="POST">
+
+<div className="bg-white  w-[400px] h-[450px] rounded-xl ">
+   <div className="flex flex-col  p-5 -mt-5">
+    <label htmlFor="name" >Name:</label>
+    <input type="text" id="name "  name="name" placeholder="enter your Name"  required className="text-center p-2 border-2 border-gray-200 outline-none rounded-xl text-sm"/>
+   </div>
+   <div className="flex flex-col  p-5 -mt-5">
+    <label htmlFor="email">Email:</label>
+    <input type="email" id="email"  name="email" placeholder="enter Email" required className="text-center p-2 border-2 border-gray-200 outline-none rounded-xl  text-sm"/>
+   </div>
+   <div className="flex flex-col  p-5 -mt-5" >
+    <label htmlFor="subject">Subject:</label>
+    <input type="text"  id="subject"  name="subject" placeholder="subject" required  className="text-center p-2 border-2 border-gray-200 outline-none rounded-xl text-sm"/>
+   </div>
+   <div className="flex flex-col  p-5 -mt-5">
+    <label htmlFor="message">Message</label>
+    <input type="text" id="message"  name="message" placeholder="enter message"  required className="text-center p-2 border-2 border-gray-200 outline-none rounded-xl text-sm"/>
+   </div>
+
+   <div>
+    <button className="bg-gray-200 py-2 px-4 rounded-xl hover:bg-gray-300">submit</button>
+   </div>
+
+</div>  
+</form>
       </div>
     </div>
   );
